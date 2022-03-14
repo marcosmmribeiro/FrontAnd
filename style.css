@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma;
+}
+
+html,body{
+    height: 100%;
+
+
+}
+.center{
+	display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+
+}   
+.reader{
+    width: 100%;
+    height: 50px;
+    background-color: #00467a;
+
+}
+
+.reader h4{
+    margin-top: -4px;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 15px;
+    color: white;
+    padding: 20px;
+
+}
+.social-media{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+.social-media img{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: -50px;
+    margin-right: 100px;
+    margin-top: -4px;
+    
+}
+
+.container-fundo{
+    width: 100%;
+    height: 557px;
+    background-image: url("../images/helpdeskshutter_952-1.jpg");
+    background-size: cover;
+	background-position: center;   
+
+}
+
+.form {
+    margin-left: 300px;
+    float: right;
+    padding: 10px;
+    height: 585px;
+    width: 400px;
+    height: calc(100% -20px);
+    position: relative;
+    top: -15px;
+    border-width: 12px;
+    border-color: rgba(120, 120, 120, 0.5);
+    border-style: solid;
+    background-color: white;
+    background-clip: padding-box;
+}
+.input-container span{
+	display: inline-block;
+	width: 100%;
+	color: rgb(11, 5, 43);
+	font-size: 17px;
+}
+.input-container input[type=text]{
+	margin-top: 8px;
+	width: 344px;
+	height: 40px;
+	border: 1px solid #ccc;
+}
+.input-container{
+    margin-top: 15px;
+
+}
+
+.container-fundo > .center{
+    height: 100%;
+
+
+}
+.container-list{
+    padding: 30px;
+    margin-left: -300px;
+    margin-top: 70px;
+    float: left;
+    width: 619px;
+    height: 270px;
+    background-color: rgba(33, 35, 67, 0.5);
+}
+
+.container-list ul{
+    list-style-position: inside;
+}
+
+.container-list ul li{
+	margin-top: 18px;
+	color: white;
+}
+
+.footer{
+    margin-top: 300px;
+    border-top: 2px solid rgba(120, 120, 120, 0.5);
+    padding: 30px 0;
+    text-align: center;
+    color: cadetblue;
+}
+
+.footer p{
+    margin-top: 8px;
+
+}
+
+.what img{
+    margin-left: 5px;
+    margin-top: 4px;
+    width: 60px;
+    height: 40px;
+}
+
