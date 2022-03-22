@@ -8,9 +8,10 @@ Projetos e estudos FrontEnd, JavaScript e FrameWork
    
 </div>
 
+##
+
 <div>
   <h2>O que é o que faz um desenvolvedor Front-End?</h2>  
-  
   <p>Um desenvolvedor front-end é responsável pelo desenvolvimento front-end da interface gráfica de aplicações web. Trabalham principalmente com as tecnologias HTML, CSS e JavaScript. Diferente do backend, que possuí muitas linguagens de programações diferentes, o dinamismo de tecnologia do frotend está principalmente nos frameworks, que são bibliotecas otimizadas para o desenvolvimento web.
 
 O frontend trabalha em conjunto com o backend, responsáveis por enviar as informações necessárias para que o frontend consiga construir a interface gráfica para um site ou sistema.</p>
