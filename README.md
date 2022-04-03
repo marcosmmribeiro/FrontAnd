@@ -21,4 +21,4 @@ O frontend trabalha em conjunto com o backend, responsáveis por enviar as infor
 
 ##
 
-<a href="https://www.flaticon.com/free-icons/whatsapp" title="whatsapp icons">Whatsapp icons created by Pixel perfect - Flaticon</a>
+
