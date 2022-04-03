@@ -19,4 +19,6 @@ Projetos e estudos FrontEnd, JavaScript, PHP, Back-End e FrameWork
 O frontend trabalha em conjunto com o backend, responsáveis por enviar as informações necessárias para que o frontend consiga construir a interface gráfica para um site ou sistema.</p>
 </div>
 
+##
 
+<a href="https://www.flaticon.com/free-icons/whatsapp" title="whatsapp icons">Whatsapp icons created by Pixel perfect - Flaticon</a>
