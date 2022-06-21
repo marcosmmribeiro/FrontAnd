@@ -1,0 +1,134 @@
+*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: tahoma;
+		}
+
+
+
+		.container{
+			max-width: 1280px;
+			padding: 0 2%;
+			margin: 0 auto;
+		}
+
+		.clear{clear: both;}
+		.logo{
+			color: white;
+			float: left;}
+
+		header{
+			height: 70px;
+			padding: 15px 0;
+			background: #234f78;
+		}
+
+		nav.menu-desktop{
+			float: right;
+		}
+		nav.menu-desktop > ul{
+			position: relative;
+			top: 7px;
+			list-style-type: none;
+		}
+
+		nav.menu-desktop > ul > li:hover > ul.submenu-desktop{
+			display: block;
+		}
+
+		nav.menu-desktop a{
+			text-decoration: none;
+			color: white;
+		}
+
+		nav.menu-desktop > ul > li{
+			position: relative;
+			margin: 0 15px;
+			display: inline-block;
+			font-size: 16px;
+		}
+		ul.submenu-desktop{
+			display: none;
+			position: absolute;
+			top: 20px;
+			right: 0;
+			width: 300px;
+			list-style-type: none;
+			background: #4b8cc9;
+			padding: 8px 0;
+		}
+
+		ul.submenu-desktop li{
+			padding: 8px;
+			border-bottom: 1px solid white;
+		}
+
+		nav.menu-desktop a:hover{
+			text-decoration: underline;
+			color: rgb(100, 100, 100);
+		}
+
+		nav.menu-mobile{
+			float: right;
+			display: none;
+		}
+
+		nav.menu-mobile i{
+			font-size: 20px;
+			color: black;
+			cursor: pointer;
+			margin-right: 4px ;
+		}
+
+		nav.menu-mobile > ul{
+			display: none;
+			position: absolute;
+			left: 0;
+			top: 60px;
+			border-top: 3px solid #ccc;
+			background: white;
+			width: 100%;
+			list-style-type: none;
+		}
+
+		nav.menu-mobile > ul > li{
+			width: 100%;
+			display: inline-block;
+			border-bottom: 1px solid black;
+			padding: 10px 8px;
+
+		}
+
+		nav.menu-mobile a{
+			text-decoration: none;
+			color: darkblue;
+		}
+
+		ul.submenu-mobile{
+			list-style-type: none;
+			padding: 8px 15px;
+		}
+
+		footer{
+
+			background: #234f78;
+			color: white;
+			bottom: 0;
+        	position: fixed;
+        	width: 100%;
+        	text-align: right;
+        	
+}
+
+		@media screen and (max-width: 768px){
+			nav.menu-mobile{
+				display: block;
+
+			}
+
+			nav.menu-desktop{
+				display: none;
+			}
+		}
+
